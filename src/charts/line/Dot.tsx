@@ -67,7 +67,7 @@ export function LineChartDot({
   const { isInactive: _isInactive } = React.useContext(LineChartPathContext);
   const isInactive = showInactiveColor && _isInactive;
   const color = isInactive ? inactiveColor || defaultColor : defaultColor;
-  const opacity = isInactive && !inactiveColor ? 0.5 : 1;
+  const opacity = 1;
   const hasOuterDot = defaultHasOuterDot || hasPulse;
 
   ////////////////////////////////////////////////////////////

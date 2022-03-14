@@ -24,7 +24,7 @@ export function LineChartCursorLine({
   const { currentX, isActive } = useLineChart();
 
   const vertical = useAnimatedStyle(() => ({
-    opacity: isActive.value ? 1 : 0,
+    opacity: 1,
     height: '100%',
     transform: [{ translateX: currentX.value }],
   }));

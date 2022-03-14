@@ -90,7 +90,7 @@ export function LineChartTooltip({
               : height - elementHeight.value - yGutter,
         },
       ],
-      opacity: isActive.value ? 1 : 0,
+      opacity: 1,
     };
   });
 

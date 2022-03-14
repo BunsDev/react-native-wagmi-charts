@@ -70,7 +70,7 @@ export function LineChartHighlight({
         fill="transparent"
         stroke={isInactive ? inactiveColor || color : color}
         strokeWidth={strokeWidth}
-        strokeOpacity={isInactive && !inactiveColor ? 0.5 : 1}
+        strokeOpacity={1}
         {...props}
       />
     </>

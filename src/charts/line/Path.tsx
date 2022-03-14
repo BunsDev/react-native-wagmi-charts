@@ -58,7 +58,7 @@ export function LineChartPath({
         animatedProps={animatedProps}
         fill="transparent"
         stroke={isInactive ? inactiveColor || color : color}
-        strokeOpacity={isInactive && !inactiveColor ? 0.2 : 1}
+        strokeOpacity={1}
         strokeWidth={strokeWidth}
         {...props}
       />
